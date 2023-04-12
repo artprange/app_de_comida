@@ -3,16 +3,15 @@ import classes from "./MealsSummary.module.css";
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Finger lickin' obscene friggin' Burgers</h2>
+      <h2>Burgers obcenamente deliciosos!</h2>
       <p>
-        Choose your favorite reaper of hunger and delight yourself with a big
-        phat nasty sucker grilled to perfection.
+        Escolha seu bruto favorito e deleite-se com um Burgão grelhado até a perfeição.
+        
       </p>
       <p>
-        All our Burgers are charbroiled medium-rare. Anything beyond that, is
-        ruined meat.
+        Todos nossos brgers são mal passados. Qualquer coisa depois disso, é carne arruinada.
       </p>
-      <p>***We do not know what "no onions" mean.***</p>
+      <p>***Não sabemos o que significa "Sem cebola".***</p>
     </section>
   );
 };
